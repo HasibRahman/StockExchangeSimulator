@@ -21,9 +21,11 @@ namespace StockExchangeSimulatorApp
         public List<Stock> GetStockPrices()
         {
             Random r = new Random();
+
+            //Creates a list of Stock with their Code and Price.
             List<Stock> stockList = new List<Stock>
             {
-                new Stock {StockCode = "AAPL",StockPrice =r.Next(1,1000) },
+                new Stock {StockCode = "AAPL",StockPrice =  r.Next(1,1000) },
                 new Stock {StockCode = "IYW",StockPrice = r.Next(1,1000)},
                 new Stock {StockCode = "AUY",StockPrice = r.Next(1,1000)},
                 new Stock {StockCode = "QQQ",StockPrice = r.Next(1,1000)},
