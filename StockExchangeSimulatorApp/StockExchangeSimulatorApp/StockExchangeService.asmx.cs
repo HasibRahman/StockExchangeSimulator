@@ -40,6 +40,7 @@ namespace StockExchangeSimulatorApp
                 new Stock {StockCode = "TXN",StockPrice = r.Next(1,1000)},
                 new Stock {StockCode = "AZS",StockPrice = r.Next(1,1000)},
             };
+
             return stockList;
         }
     }
